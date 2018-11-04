@@ -15,11 +15,6 @@ h1  {
     text-align: center;
     position: center center;
 }
-#form   {
-    padding: 2px;
-    position: center center;
-    clear: both;
-}
 #container1 {
     width: 300px;
     height: 300px;
