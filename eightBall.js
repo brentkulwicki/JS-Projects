@@ -1,5 +1,5 @@
 let eightBall = '';
-function eightBallResponse() { // Function assigns a random response to eightBall
+function eightBallResponse() { // Function generates a random number and then assigns a response to eightBall based on that number
     let randomNumber = Math.floor(Math.random() * 20);
     switch (randomNumber) {
         case 0:
