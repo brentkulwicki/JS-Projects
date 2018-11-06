@@ -69,6 +69,6 @@ function eightBallResponse() { // Function generates a random number and then as
 }
 function shake () {
     eightBallResponse();
-    console.log(eightBall);
+    document.getElementsByTagName('p')[0].innerHTML = eightBall;
 }
 document.getElementById('clickMe').addEventListener('click', shake);
